@@ -9,6 +9,7 @@
  */
 
 // ANSWER
+//I would inspect element within the browser, and open up the console tab. Then using javascript, I would identify a parent element name using it's ID; then add a new element under that parent, much the same way you would add a new attribute to an object in JS.
 
 // END ANSWER
 
@@ -26,6 +27,7 @@
  */
 
 // ANSWER
+//E is a second generation descendent of A. A is the parent node of D, and D is the parent node of E.
 
 // END ANSWER
 
@@ -34,7 +36,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,6 +44,13 @@
  */
 
 // ANSWER
+<body id ="a">
+  <div id ="d">
+    <p1 id="e"></p>
+  </div>
+</body>
+
+document.getElementbyId("e");
 
 // END ANSWER
 
@@ -57,5 +66,5 @@
  */
 
 // ANSWER
-
+https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 // END ANSWER
