@@ -9,6 +9,8 @@
  */
 
 // ANSWER
+Using a javascript page embedded in the HTML. The javascript could invoke functions from jquery that listen to the page through events and applies handlers to them.
+
 
 // END ANSWER
 
@@ -21,12 +23,11 @@
  *	E is a child of D.
  *
  *	Describe E's relationship to A.
- *
  *	Answer below.
  */
 
 // ANSWER
-
+E is a grand child of A. It inherits all the things from A that were unchanged from D and all the things in D.
 // END ANSWER
 
 /** QUESTION 3
@@ -34,7 +35,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,7 +43,7 @@
  */
 
 // ANSWER
-
+A > D > E
 // END ANSWER
 
 /** QUESTION 4
@@ -57,5 +58,5 @@
  */
 
 // ANSWER
-
+https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 // END ANSWER
