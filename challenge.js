@@ -9,6 +9,7 @@
  */
 
 // ANSWER
+call document.create.Element
 
 // END ANSWER
 
@@ -26,7 +27,8 @@
  */
 
 // ANSWER
-
+E's parent is D while D's parent is A
+so A is E's grandparent :-)
 // END ANSWER
 
 /** QUESTION 3
@@ -34,7 +36,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,7 +44,8 @@
  */
 
 // ANSWER
-
+var Dpoint = A:lastchild:
+var Epoint = Dpoint:onlyChild
 // END ANSWER
 
 /** QUESTION 4
@@ -57,5 +60,8 @@
  */
 
 // ANSWER
+var parent;
+var p = document.createElement("p");
+parent.appendChild(p);
 
 // END ANSWER
