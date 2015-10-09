@@ -9,7 +9,9 @@
  */
 
 // ANSWER
-
+//
+// Using DOM, create the element and append it to an existing element.
+//
 // END ANSWER
 
 /** QUESTION 2
@@ -23,10 +25,13 @@
  *	Describe E's relationship to A.
  *
  *	Answer below.
+ *
  */
 
 // ANSWER
-
+//
+// E is also a child of A.
+//
 // END ANSWER
 
 /** QUESTION 3
@@ -34,7 +39,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,7 +47,9 @@
  */
 
 // ANSWER
-
+//
+// div p {}
+//
 // END ANSWER
 
 /** QUESTION 4
@@ -57,5 +64,5 @@
  */
 
 // ANSWER
-
+// https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 // END ANSWER
