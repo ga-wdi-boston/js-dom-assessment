@@ -8,6 +8,9 @@
  *	Answer below.
  */
 
+ //Open up the inspector using option+CMD+i, add and element using document.createElement() in the command line.
+ //used https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+
 // ANSWER
 
 // END ANSWER
@@ -27,6 +30,8 @@
 
 // ANSWER
 
+E is the grandchild of A
+
 // END ANSWER
 
 /** QUESTION 3
@@ -34,7 +39,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,6 +47,10 @@
  */
 
 // ANSWER
+
+document.querySelector('div>p')
+
+//used http://www.w3schools.com/jsref/met_document_queryselector.asp
 
 // END ANSWER
 
@@ -58,4 +67,5 @@
 
 // ANSWER
 
+//http://www.w3schools.com/jsref/met_node_appendchild.asp
 // END ANSWER
