@@ -9,6 +9,7 @@
  */
 
 // ANSWER
+  You would go to the web page, open developer tools and get the element ID of the item you want to insert the html element (parent) and use a command (unsure of the command) to add it as a child to the parent
 
 // END ANSWER
 
@@ -27,6 +28,8 @@
 
 // ANSWER
 
+  E is a descendent of A
+
 // END ANSWER
 
 /** QUESTION 3
@@ -34,14 +37,16 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
  *	Answer below.
  */
 
-// ANSWER
+// ANSWER - do not know this one
+
+  body div p {}
 
 // END ANSWER
 
@@ -58,4 +63,5 @@
 
 // ANSWER
 
+Node.appendChild()
 // END ANSWER
