@@ -9,6 +9,7 @@
  */
 
 // ANSWER
+Open up developer tools and fiddle around in console.
 
 // END ANSWER
 
@@ -26,6 +27,7 @@
  */
 
 // ANSWER
+A is Es ancestor.  E may inherit properties from A, unless D has overwritten them.
 
 // END ANSWER
 
@@ -34,7 +36,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,6 +44,7 @@
  */
 
 // ANSWER
+#data-table-1 :A E {font-weight: bolder;}
 
 // END ANSWER
 
@@ -57,5 +60,10 @@
  */
 
 // ANSWER
+var element = document.createElement("div");
+element.id = 'testqq';
+var el = document.getElementById('testqq');
+
+https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
 
 // END ANSWER
