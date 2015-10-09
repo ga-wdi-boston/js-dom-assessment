@@ -6,7 +6,7 @@
  *		to a web page without refreshing it?
  *
  *	Answer below.
- */
+ */ I would do it through the console of the webpage by entering document.createElement.
 
 // ANSWER
 
@@ -23,7 +23,7 @@
  *	Describe E's relationship to A.
  *
  *	Answer below.
- */
+ */E is the grandchild of the A element
 
 // ANSWER
 
@@ -34,7 +34,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,6 +42,7 @@
  */
 
 // ANSWER
+grandparentDiv.getElementsByTagName("div")
 
 // END ANSWER
 
@@ -57,5 +58,7 @@
  */
 
 // ANSWER
+
+https:developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 
 // END ANSWER
