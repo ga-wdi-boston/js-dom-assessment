@@ -10,6 +10,7 @@
 
 // ANSWER
 
+//You'd create a new div element, give it some content, and add the newly created element to the DOM. (answer: MDN)
 // END ANSWER
 
 /** QUESTION 2
@@ -27,6 +28,8 @@
 
 // ANSWER
 
+//E is grandchild of A
+
 // END ANSWER
 
 /** QUESTION 3
@@ -34,7 +37,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,7 +45,7 @@
  */
 
 // ANSWER
-
+// You can use the element selector.
 // END ANSWER
 
 /** QUESTION 4
@@ -57,5 +60,5 @@
  */
 
 // ANSWER
-
+// https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 // END ANSWER
