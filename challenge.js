@@ -9,7 +9,7 @@
  */
 
 // ANSWER
-
+I would go into the developer tools and use the console to alter the html.
 // END ANSWER
 
 /** QUESTION 2
@@ -26,7 +26,7 @@
  */
 
 // ANSWER
-
+E is the second child of A (E is child of D which is child of A)
 // END ANSWER
 
 /** QUESTION 3
@@ -34,7 +34,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,7 +42,7 @@
  */
 
 // ANSWER
-
+A.child[3];
 // END ANSWER
 
 /** QUESTION 4
@@ -57,5 +57,5 @@
  */
 
 // ANSWER
-
+http://www.w3schools.com/jsref/met_node_appendchild.asp
 // END ANSWER
