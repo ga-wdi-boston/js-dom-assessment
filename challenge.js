@@ -9,7 +9,7 @@
  */
 
 // ANSWER
-
+// To add a new html element to the web page, you could open up the web browser console and add the element through that, rather than having to work through the actual file and saving and refreshing the page.
 // END ANSWER
 
 /** QUESTION 2
@@ -26,7 +26,7 @@
  */
 
 // ANSWER
-
+// I'm not completely sure about this, but if B, C, and D are 'siblings' and A is the parent of C while E is the child of D, would A be the 'grandparent' of E?
 // END ANSWER
 
 /** QUESTION 3
@@ -34,7 +34,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,7 +42,7 @@
  */
 
 // ANSWER
-
+// In the case of needing to refer to it from the DOM, would the parent method need to be used twice in order to reach A from E (.parent().parent())?
 // END ANSWER
 
 /** QUESTION 4
@@ -57,5 +57,5 @@
  */
 
 // ANSWER
-
+// To attach an element as a child of an element, you would refer to the element you want to add it to and use the method .appendChild. (element.appendChild(<elementYouWantToAttach>))(?)
 // END ANSWER
