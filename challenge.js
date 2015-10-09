@@ -9,7 +9,7 @@
  */
 
 // ANSWER
-
+// Use the inspector in the web browser to find the id of the element you want to change. Use the console to alter the style sheet of that element.
 // END ANSWER
 
 /** QUESTION 2
@@ -26,7 +26,8 @@
  */
 
 // ANSWER
-
+// E is a child of D which (because it is a sibling of C) is a child of A
+// So A is E's great-aunt/uncle in a sense... (just kidding)
 // END ANSWER
 
 /** QUESTION 3
@@ -34,7 +35,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,7 +43,7 @@
  */
 
 // ANSWER
-
+// document.querySelector("p")
 // END ANSWER
 
 /** QUESTION 4
@@ -57,5 +58,5 @@
  */
 
 // ANSWER
-
+// https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
 // END ANSWER
