@@ -10,6 +10,10 @@
 
 // ANSWER
 
+    // Using browser tools, I would inspect the element I wanted to change to get it's ID.  I would create a variable that looks up the element by ID, and call it.  Then I would run the expression below adding new text to the sting at the end.
+
+      // document.getElementById("ID").innerHTML = "New text!";
+
 // END ANSWER
 
 /** QUESTION 2
@@ -27,6 +31,8 @@
 
 // ANSWER
 
+  // E is the grandchild of A.  The tree would look like A ==> D ==> E.
+
 // END ANSWER
 
 /** QUESTION 3
@@ -34,7 +40,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,6 +48,8 @@
  */
 
 // ANSWER
+
+  // document.querySelector("p");
 
 // END ANSWER
 
@@ -57,5 +65,7 @@
  */
 
 // ANSWER
+
+  // MDN URL:  https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 
 // END ANSWER
