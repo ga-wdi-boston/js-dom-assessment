@@ -9,7 +9,7 @@
  */
 
 // ANSWER
-
+// By going into the console on the browser and add html element by typing 'document.createElement()' with the parameters you want.
 // END ANSWER
 
 /** QUESTION 2
@@ -26,7 +26,7 @@
  */
 
 // ANSWER
-
+// E is child of a child of A.  E's parent is D and since D is siblings are B and C and we know that C's parent is A it means B,C,D all have same parent which is A.
 // END ANSWER
 
 /** QUESTION 3
@@ -34,7 +34,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,7 +42,7 @@
  */
 
 // ANSWER
-
+// document.body.child('D').child('E')
 // END ANSWER
 
 /** QUESTION 4
@@ -57,5 +57,5 @@
  */
 
 // ANSWER
-
+// https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 // END ANSWER
