@@ -10,6 +10,8 @@
 
 // ANSWER
 
+  /** You would add an event handler to some item on the page that when executed, invokes a method on the 'document' object that produces the desired element. The method for adding an html element is: document.createElement() **/
+
 // END ANSWER
 
 /** QUESTION 2
@@ -27,6 +29,8 @@
 
 // ANSWER
 
+  /** E is a grandchild to A **/
+
 // END ANSWER
 
 /** QUESTION 3
@@ -34,7 +38,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,6 +46,8 @@
  */
 
 // ANSWER
+
+  /** document.querySelector('p') **/
 
 // END ANSWER
 
@@ -57,5 +63,8 @@
  */
 
 // ANSWER
+
+  /** node.appendChild()
+      https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild **/
 
 // END ANSWER
