@@ -4,12 +4,14 @@
  *
  *	In plain English, how would you add a new HTML element
  *		to a web page without refreshing it?
- *
  *	Answer below.
  */
 
 // ANSWER
+setup a click handler eventlistener. that adds html to a page.
 
+Do you mean like in the lab we just did or using DOM?
+var btn = document.createElement("BUTTON");
 // END ANSWER
 
 /** QUESTION 2
@@ -26,7 +28,7 @@
  */
 
 // ANSWER
-
+  E is an ancestor(child?) of A
 // END ANSWER
 
 /** QUESTION 3
@@ -34,7 +36,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,7 +44,7 @@
  */
 
 // ANSWER
-
+document.getElementById('E')
 // END ANSWER
 
 /** QUESTION 4
@@ -57,5 +59,5 @@
  */
 
 // ANSWER
-
+document.getElementById("myList").appendChild(VARIABLE)
 // END ANSWER
