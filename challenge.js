@@ -7,8 +7,8 @@
  *
  *	Answer below.
  */
-
-// ANSWER
+// ANSWER: In sublime, or another text reader, you'd add the appropriate tag, for example, a new heading tag could be
+// <h2>this element</h2>.  You would have to save the html document.  Or if you did have the page open in a browser, you could go to the js console and run something like document.addElement ....
 
 // END ANSWER
 
@@ -25,7 +25,7 @@
  *	Answer below.
  */
 
-// ANSWER
+// ANSWER E could be a descendent of A, if we are supposed to assume that D comes after C and is a child of C.  But we don't have that information and can't assume that the person creating the stylesheet's understanding of how A, B, C, D, and E should be ordered.
 
 // END ANSWER
 
@@ -34,14 +34,14 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
  *	Answer below.
  */
 
-// ANSWER
+// ANSWER  document.getElementById."E"
 
 // END ANSWER
 
@@ -56,6 +56,6 @@
  *	Paste the URL of the MDN page below.
  */
 
-// ANSWER
+// ANSWER https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 
 // END ANSWER
