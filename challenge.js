@@ -6,10 +6,10 @@
  *		to a web page without refreshing it?
  *
  *	Answer below.
- */
+ */ //create a new element first, and then append it to an existing element.
 
 // ANSWER
-
+//create a new element first, and then append it to an existing element.
 // END ANSWER
 
 /** QUESTION 2
@@ -26,7 +26,7 @@
  */
 
 // ANSWER
-
+// I think it would have the same relationship as C would be to A. So E would also be a child of A.
 // END ANSWER
 
 /** QUESTION 3
@@ -34,7 +34,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,7 +42,7 @@
  */
 
 // ANSWER
-
+// I would do var x = document.getElementsByTagName("E");
 // END ANSWER
 
 /** QUESTION 4
@@ -57,5 +57,9 @@
  */
 
 // ANSWER
+// I didn't get from mdn but I found the answer. You would have to create a var. for example
 
+var txtNode = document.createTextNode("Hello. This is a new node.");
+
+http://www.javascriptkit.com/javatutors/dom2.shtml
 // END ANSWER
