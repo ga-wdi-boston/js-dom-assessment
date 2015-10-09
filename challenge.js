@@ -10,6 +10,8 @@
 
 // ANSWER
 
+You would run a JS function that calls the document.createElement() method.
+
 // END ANSWER
 
 /** QUESTION 2
@@ -26,6 +28,13 @@
  */
 
 // ANSWER
+<a>
+  <b>
+  <c>
+  <d>
+    <e>
+
+    E is a child of D, which in turn is a child of A. In laymans terms, E is a grand child of A.
 
 // END ANSWER
 
@@ -34,7 +43,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,6 +51,25 @@
  */
 
 // ANSWER
+
+<body class='a'>
+  <div class='b'>
+  <div class='c'>
+  <div class='d'>
+    <p class='e'>
+
+Selector:
+
+Specific class selector:
+.e {
+
+}
+
+Or you could call a less specific element selector since it is the only <p>
+
+p {
+
+}
 
 // END ANSWER
 
@@ -57,5 +85,7 @@
  */
 
 // ANSWER
+
+"http://www.w3schools.com/jsref/met_node_appendchild.asp"
 
 // END ANSWER
