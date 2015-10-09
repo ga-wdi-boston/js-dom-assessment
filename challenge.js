@@ -7,6 +7,7 @@
  *
  *	Answer below.
  */
+ open up developer tools and go to the elements tab. Right click on where you would like to input and select edit as HTML. You can also right click on the element on the webpage and select edit as html.
 
 // ANSWER
 
@@ -26,7 +27,7 @@
  */
 
 // ANSWER
-
+E is the second child of A
 // END ANSWER
 
 /** QUESTION 3
@@ -34,7 +35,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,7 +43,7 @@
  */
 
 // ANSWER
-
+document.body.p or document.querySelector('p')
 // END ANSWER
 
 /** QUESTION 4
@@ -57,5 +58,7 @@
  */
 
 // ANSWER
+
+https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 
 // END ANSWER
