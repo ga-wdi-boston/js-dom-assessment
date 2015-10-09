@@ -9,7 +9,7 @@
  */
 
 // ANSWER
-
+ use load() function to load the contents of another HTML file on the server and place it anywhere on the current page so you can replace the current HTML if needed.
 // END ANSWER
 
 /** QUESTION 2
@@ -26,7 +26,7 @@
  */
 
 // ANSWER
-
+E is a nested child of A through D who is a child of A
 // END ANSWER
 
 /** QUESTION 3
@@ -34,7 +34,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,7 +42,7 @@
  */
 
 // ANSWER
-
+document.querySelector("E");
 // END ANSWER
 
 /** QUESTION 4
@@ -57,5 +57,7 @@
  */
 
 // ANSWER
+
+developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 
 // END ANSWER
