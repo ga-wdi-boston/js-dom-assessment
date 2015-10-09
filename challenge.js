@@ -9,6 +9,7 @@
  */
 
 // ANSWER
+developer tools within the page
 
 // END ANSWER
 
@@ -26,6 +27,7 @@
  */
 
 // ANSWER
+E is a descendent
 
 // END ANSWER
 
@@ -34,14 +36,14 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
  *	Answer below.
  */
-
 // ANSWER
+selector1 selector2 { style properties }
 
 // END ANSWER
 
@@ -57,5 +59,5 @@
  */
 
 // ANSWER
-
+https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 // END ANSWER
