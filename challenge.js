@@ -9,7 +9,7 @@
  */
 
 // ANSWER
-
+You jump to your development tools and open the console, pass the element id/class into defined variables through DOM, then make changes(add in this case) new elements to the page.
 // END ANSWER
 
 /** QUESTION 2
@@ -26,7 +26,7 @@
  */
 
 // ANSWER
-
+A is 2 levels higher than E, so A is the grandparent of E.
 // END ANSWER
 
 /** QUESTION 3
@@ -34,7 +34,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,7 +42,7 @@
  */
 
 // ANSWER
-
+A D E {}
 // END ANSWER
 
 /** QUESTION 4
@@ -57,5 +57,6 @@
  */
 
 // ANSWER
-
+appendChild method will do the job.
+URL: https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 // END ANSWER
