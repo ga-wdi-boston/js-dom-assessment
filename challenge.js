@@ -6,7 +6,7 @@
  *		to a web page without refreshing it?
  *
  *	Answer below.
- */
+ */ I would use the consol and inspector tool on the developer bar underneathe the webpage.
 
 // ANSWER
 
@@ -23,7 +23,7 @@
  *	Describe E's relationship to A.
  *
  *	Answer below.
- */
+ */E is the 'grandchild' of A.  A is the parent of D and D is the parent of E. So E is an element of D which is an element of A. E is a second element of A?
 
 // ANSWER
 
@@ -34,12 +34,17 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
  *	Answer below.
- */
+ */<body>
+      <div>
+          <p>
+          </p>
+      </div>
+  </body>
 
 // ANSWER
 
@@ -52,9 +57,10 @@
  *
  *	Use Google to search MDN for the appropriate method you can
  *		use to achieve this.
- *
+ *s
  *	Paste the URL of the MDN page below.
- */
+ */elector1 > selector2 { style properties }
+ https://developer.mozilla.org/en-US/docs/Web/CSS/Child_selectors
 
 // ANSWER
 
