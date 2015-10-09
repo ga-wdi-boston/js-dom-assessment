@@ -6,9 +6,8 @@
  *		to a web page without refreshing it?
  *
  *	Answer below.
- */
 
-// ANSWER
+ */ Through the console
 
 // END ANSWER
 
@@ -23,9 +22,9 @@
  *	Describe E's relationship to A.
  *
  *	Answer below.
- */
+ */E is grandchild.
 
-// ANSWER
+//
 
 // END ANSWER
 
@@ -34,14 +33,14 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
  *	Answer below.
- */
+ */A D E {}
 
-// ANSWER
+//
 
 // END ANSWER
 
@@ -54,8 +53,8 @@
  *		use to achieve this.
  *
  *	Paste the URL of the MDN page below.
- */
+ */https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
+//
 
-// ANSWER
 
 // END ANSWER
