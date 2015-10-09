@@ -9,6 +9,10 @@
  */
 
 // ANSWER
+If I was doing this on-the-fly *just* to test the immediate effect of adding a new div element as the first child element of the body on a web page without refreshing it, I would type the following in the console:
+
+var body = document.getElementsByTagName('body');
+body.document.createElement('div');
 
 // END ANSWER
 
@@ -26,7 +30,7 @@
  */
 
 // ANSWER
-
+In semantic terms, E is a descendant of A. Meaning, E is a grandchild of A, because E is nested inside D, which is a sibling of C, which is a child of A.
 // END ANSWER
 
 /** QUESTION 3
@@ -34,7 +38,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,7 +46,9 @@
  */
 
 // ANSWER
-
+A > D > E {
+  [ property: attribute; pair here]
+}
 // END ANSWER
 
 /** QUESTION 4
@@ -57,5 +63,8 @@
  */
 
 // ANSWER
-
+var body = document.getElementsByTagName('body');
+var div = body.document.createElement('div');
+var p = body.document.createElement('p');
+div.appendChild(p);
 // END ANSWER
