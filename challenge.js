@@ -10,6 +10,14 @@
 
 // ANSWER
 
+// Open console
+// Inspect element (right click)
+// search for the ID name
+// var someVariable = document.getElementById(‘name-of-id’)
+// someVariable.style will show all the style properties of the specific element
+// someVariable.style.chooseAStyle = ‘change'
+//      i.e. someVariable.style.background-color = ‘red'
+
 // END ANSWER
 
 /** QUESTION 2
@@ -27,6 +35,8 @@
 
 // ANSWER
 
+ E is the grandchild of A
+
 // END ANSWER
 
 /** QUESTION 3
@@ -34,7 +44,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,6 +52,8 @@
  */
 
 // ANSWER
+
+A.C().E()
 
 // END ANSWER
 
@@ -57,5 +69,8 @@
  */
 
 // ANSWER
+
+https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
+https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
 
 // END ANSWER
