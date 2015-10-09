@@ -9,7 +9,7 @@
  */
 
 // ANSWER
-
+use element.setAttribute
 // END ANSWER
 
 /** QUESTION 2
@@ -26,6 +26,7 @@
  */
 
 // ANSWER
+grandchild
 
 // END ANSWER
 
@@ -34,7 +35,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,7 +43,7 @@
  */
 
 // ANSWER
-
+element = document.querySelector('E');
 // END ANSWER
 
 /** QUESTION 4
@@ -57,5 +58,5 @@
  */
 
 // ANSWER
-
+https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 // END ANSWER
