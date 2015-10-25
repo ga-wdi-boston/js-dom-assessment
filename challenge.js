@@ -6,9 +6,7 @@
  *		to a web page without refreshing it?
  *
  *	Answer below.
- */
-// ANSWER: In sublime, or another text reader, you'd add the appropriate tag, for example, a new heading tag could be
-// <h2>this element</h2>.  You would have to save the html document.  Or if you did have the page open in a browser, you could go to the js console and run something like document.addElement ....
+ /* When the page is open in a browser like chrome, you could go to the Developer Tools, Click on Elements, and you can  test out HTML changes/additions from the console. /*
 
 // END ANSWER
 
@@ -25,7 +23,7 @@
  *	Answer below.
  */
 
-// ANSWER E could be a descendent of A, if we are supposed to assume that D comes after C and is a child of C.  But we don't have that information and can't assume that the person creating the stylesheet's understanding of how A, B, C, D, and E should be ordered.
+// ANSWER E is a descendent of A, a grandchild.
 
 // END ANSWER
 
@@ -41,7 +39,7 @@
  *	Answer below.
  */
 
-// ANSWER  document.getElementById."E"
+// ANSWER  body > div > p >
 
 // END ANSWER
 
