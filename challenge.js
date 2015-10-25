@@ -6,9 +6,7 @@
  *		to a web page without refreshing it?
  *
  *	Answer below.
- */
-
-// ANSWER
+ /* When the page is open in a browser like chrome, you could go to the Developer Tools, Click on Elements, and you can  test out HTML changes/additions from the console. /*
 
 // END ANSWER
 
@@ -25,7 +23,7 @@
  *	Answer below.
  */
 
-// ANSWER
+// ANSWER E is a descendent of A, a grandchild.
 
 // END ANSWER
 
@@ -34,14 +32,14 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
  *	Answer below.
  */
 
-// ANSWER
+// ANSWER  body > div > p >
 
 // END ANSWER
 
@@ -56,6 +54,6 @@
  *	Paste the URL of the MDN page below.
  */
 
-// ANSWER
+// ANSWER https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 
 // END ANSWER
