@@ -6,10 +6,23 @@
  *		to a web page without refreshing it?
  *
  *	Answer below.
- */ //create a new element first, and then append it to an existing element.
 
 // ANSWER
-//create a new element first, and then append it to an existing element.
+//create a new element first, and then append it to an existing element. For example...
+
+<div id="div1">
+<p id="p1">This is a paragraph.</p>
+<p id="p2">This is another paragraph.</p>
+</div>
+
+<script>
+var para = document.createElement("p");
+var node = document.createTextNode("This is new.");
+para.appendChild(node);
+
+var element = document.getElementById("div1");
+element.appendChild(para);
+</script>
 // END ANSWER
 
 /** QUESTION 2
@@ -26,7 +39,7 @@
  */
 
 // ANSWER
-// I think it would have the same relationship as C would be to A. So E would also be a child of A.
+// E is the grandchild of A.
 // END ANSWER
 
 /** QUESTION 3
@@ -42,7 +55,7 @@
  */
 
 // ANSWER
-// I would do var x = document.getElementsByTagName("E");
+// I would do var x = document.getElementsByTagName("div >p");
 // END ANSWER
 
 /** QUESTION 4
@@ -57,9 +70,7 @@
  */
 
 // ANSWER
-// I didn't get from mdn but I found the answer. You would have to create a var. for example
+//
 
-var txtNode = document.createTextNode("Hello. This is a new node.");
-
-http://www.javascriptkit.com/javatutors/dom2.shtml
+//https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 // END ANSWER
