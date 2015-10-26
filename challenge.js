@@ -6,10 +6,23 @@
  *		to a web page without refreshing it?
  *
  *	Answer below.
- */
 
 // ANSWER
+//create a new element first, and then append it to an existing element. For example...
 
+<div id="div1">
+<p id="p1">This is a paragraph.</p>
+<p id="p2">This is another paragraph.</p>
+</div>
+
+<script>
+var para = document.createElement("p");
+var node = document.createTextNode("This is new.");
+para.appendChild(node);
+
+var element = document.getElementById("div1");
+element.appendChild(para);
+</script>
 // END ANSWER
 
 /** QUESTION 2
@@ -26,7 +39,7 @@
  */
 
 // ANSWER
-
+// E is the grandchild of A.
 // END ANSWER
 
 /** QUESTION 3
@@ -34,7 +47,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,7 +55,7 @@
  */
 
 // ANSWER
-
+// I would do var x = document.getElementsByTagName("div >p");
 // END ANSWER
 
 /** QUESTION 4
@@ -57,5 +70,7 @@
  */
 
 // ANSWER
+//
 
+//https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 // END ANSWER
