@@ -9,6 +9,8 @@
  */
 
 // ANSWER
+Open up developer tools and fiddle around in console.
+Use jQuery
 
 // END ANSWER
 
@@ -26,6 +28,7 @@
  */
 
 // ANSWER
+A is Es grandparent.  E may inherit properties from A, unless D has overwritten them.
 
 // END ANSWER
 
@@ -34,7 +37,7 @@
  *	Using the same HTML elements as above...
  *
  *	Suppose A is the body element, B, C, and D are all divs,
- *		and E is a p. 
+ *		and E is a p.
  *
  *	Write a CSS selector that can be used to retrieve E from the DOM.
  *
@@ -42,6 +45,7 @@
  */
 
 // ANSWER
+body > div > p
 
 // END ANSWER
 
@@ -57,5 +61,9 @@
  */
 
 // ANSWER
+var p = document.createElement("p");
+document.body.appendChild(p);
+
+https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 
 // END ANSWER
