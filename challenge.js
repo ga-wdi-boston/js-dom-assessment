@@ -10,6 +10,7 @@
 
 // ANSWER
 Open up developer tools and fiddle around in console.
+Use jQuery
 
 // END ANSWER
 
@@ -27,7 +28,7 @@ Open up developer tools and fiddle around in console.
  */
 
 // ANSWER
-A is Es ancestor.  E may inherit properties from A, unless D has overwritten them.
+A is Es grandparent.  E may inherit properties from A, unless D has overwritten them.
 
 // END ANSWER
 
@@ -44,7 +45,7 @@ A is Es ancestor.  E may inherit properties from A, unless D has overwritten the
  */
 
 // ANSWER
-#data-table-1 :A E {font-weight: bolder;}
+body > div > p
 
 // END ANSWER
 
@@ -60,10 +61,9 @@ A is Es ancestor.  E may inherit properties from A, unless D has overwritten the
  */
 
 // ANSWER
-var element = document.createElement("div");
-element.id = 'testqq';
-var el = document.getElementById('testqq');
+var p = document.createElement("p");
+document.body.appendChild(p);
 
-https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 
 // END ANSWER
