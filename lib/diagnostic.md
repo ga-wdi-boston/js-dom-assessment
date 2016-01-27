@@ -1,6 +1,6 @@
 ## Question 1
 
-Using "inspect element" write 4 selectors found on the the main page for this GitHub repo.
+Using `inspect element` write 4 selectors found on the the main page for this GitHub repo.
 
 <!-- your answer starts here -->
 
@@ -8,8 +8,8 @@ Using "inspect element" write 4 selectors found on the the main page for this Gi
 
 ## Question 2
 
-Using the diagram in the ReadME (also in the assets folder) what are two ways
-you could return ALL list items using jQuery? This is intentionally vauge. (Assume starting at the OL DOM node).
+Using the diagram in the `ReadME` (also in the assets `folder`) what are two ways
+you could return ALL list items using jQuery? This is intentionally vauge. (Assume starting at the `OL` DOM node).
 
 <!-- your answer starts here -->
 
@@ -17,7 +17,7 @@ you could return ALL list items using jQuery? This is intentionally vauge. (Assu
 
 ## Question 3
 
-Write the jQuery code to navigate to one of the list item DOM nodes to the form
+Write the jQuery code to navigate to one of the list item (`li`) DOM nodes to the `form`
 DOM node. (Assume the list item has a class of "listerItem").
 
 <!-- your answer starts here -->
