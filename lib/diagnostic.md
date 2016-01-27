@@ -1,6 +1,6 @@
 ## Question 1
 
-Using `inspect element` write 4 selectors found on the the main page for this GitHub repo.
+Using `inspect element`, write four selectors found on the main page for this GitHub repo.
 
 <!-- your answer starts here -->
 
@@ -8,8 +8,8 @@ Using `inspect element` write 4 selectors found on the the main page for this Gi
 
 ## Question 2
 
-Using the diagram in the `ReadME` (also in the assets `folder`) what are two ways
-you could return ALL list items using jQuery? This is intentionally vauge. (Assume starting at the `OL` DOM node).
+Using the diagram in the `README` file (also in the `assets` folder), what are two ways
+you could return ALL list items (`li`) using jQuery? This is intentionally vague. (Assume starting at the `OL` DOM node).
 
 <!-- your answer starts here -->
 
@@ -17,7 +17,7 @@ you could return ALL list items using jQuery? This is intentionally vauge. (Assu
 
 ## Question 3
 
-Write the jQuery code to navigate to one of the list item (`li`) DOM nodes to the `form`
+Write the jQuery code to navigate from one of the list item (`li`) DOM nodes to the `form`
 DOM node. (Assume the list item has a class of "listerItem").
 
 <!-- your answer starts here -->
@@ -26,8 +26,7 @@ DOM node. (Assume the list item has a class of "listerItem").
 
 ## Question 4
 
-Give 2 examples of a jQuery getter method and a jQuery setter method. Write the
-code for each. (There should be 4 lines of code).
+Give two examples of jQuery getter methods and two examples of jQuery setter methods.
 
 <!-- your answer starts here -->
 
@@ -35,7 +34,7 @@ code for each. (There should be 4 lines of code).
 
 ## Question 5
 
-In your own words please answer the following question: WHAT IS THE DOM?
+In your own words, please answer the following question: WHAT IS THE DOM?
 
 <!-- your answer starts here -->
 
@@ -43,7 +42,7 @@ In your own words please answer the following question: WHAT IS THE DOM?
 
 ## Question 6
 
-Please give 2 examples of "things" that are commonly confused for the DOM.
+Please give two examples of things that are commonly confused for the DOM.
 
 <!-- your answer starts here -->
 
@@ -60,7 +59,7 @@ item elements) to the body DOM node, then hides it.
 
 ## Question 8
 
-Write a simple function for click event registration.
+Use jQuery to register a click handler for clicks inside `div` items.
 
 <!-- your answer starts here -->
 
