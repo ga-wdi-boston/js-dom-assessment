@@ -3,7 +3,10 @@
 Using `inspect element`, write four selectors found on the main page for this GitHub repo.
 
 <!-- your answer starts here -->
-
+$( "ul:eq( 1 )" )
+$( ".repository-content" ).children()
+$( ".file-navigation in-mid-page:lastchild" )
+$( ".repository-content:parent" )
 <!-- your answer ends here -->
 
 ## Question 2
@@ -12,7 +15,8 @@ Using the diagram in the `README` file (also in the `assets` folder), what are t
 you could return ALL list items (`li`) using jQuery? This is intentionally vague. (Assume starting at the `OL` DOM node).
 
 <!-- your answer starts here -->
-
+$( "OL" ).children()
+$( "OL ").parent().not(:has(*))
 <!-- your answer ends here -->
 
 ## Question 3
@@ -21,7 +25,7 @@ Write the jQuery code to navigate from one of the list item (`li`) DOM nodes to 
 DOM node. (Assume the list item has a class of "listerItem").
 
 <!-- your answer starts here -->
-
+$( "li" )
 <!-- your answer ends here -->
 
 ## Question 4
