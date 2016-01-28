@@ -13,3 +13,5 @@
 2. Change into the project directory.
 3. Follow the directions in `diagnostic.md`.
 4. Submit your solution as a pull request.
+
+You may use any resource, other than someone else in the classroom, to help you complete this assessment.
