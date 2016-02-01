@@ -9,9 +9,19 @@
 
 ## Instructions
 
-1. [Fork and clone](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone) this repo.
-2. Change into the project directory.
-3. Follow the directions in `diagnostic.md`.
-4. Submit your solution as a pull request.
+1.  Fork and clone this repository.
+1.  Change into the new directory.
+1.  Install dependencies.
+1.  Create and checkout a new branch, named `response`.
+1.  Follow the directions given in [diagnostic.md](diagnostic.md).
+1.  Before the alotted time is up, push to your fork and issue a pull request.
 
-You may use any resource, other than someone else in the classroom, to help you complete this assessment.
+You may wish to refer to ["How do I submit diagnostics?"](https://github.com/ga-wdi-boston/meta/wiki/Diagnostics)
+and other [FAQs](https://github.com/ga-wdi-boston/meta/wiki/) related to
+[forking, cloning](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone),
+and [pull requests](https://github.com/ga-wdi-boston/meta/wiki/PullRequest).
+
+## [License](LICENSE)
+
+Source code distributed under the MIT license. Text and other assets copyright
+General Assembly, Inc., all rights reserved.
