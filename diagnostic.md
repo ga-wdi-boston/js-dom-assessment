@@ -1,6 +1,7 @@
 ## Question 1
 
-Using `inspect element`, write four selectors found on the main page for this GitHub repo.
+Using `inspect element`, write four selectors found on the main page for this
+GitHub repo.
 
 <!-- your answer starts here -->
 
@@ -8,8 +9,9 @@ Using `inspect element`, write four selectors found on the main page for this Gi
 
 ## Question 2
 
-Using the diagram in the `README` file (also in the `assets` folder), what are two ways
-you could return ALL list items (`li`) using jQuery? This is intentionally vague. (Assume starting at the `OL` DOM node).
+Using the diagram in the `README` file, what are two ways you could return ALL
+list items (`li`) using jQuery? This is intentionally vague. (Assume starting
+at the `OL` DOM node).
 
 <!-- your answer starts here -->
 
@@ -17,8 +19,8 @@ you could return ALL list items (`li`) using jQuery? This is intentionally vague
 
 ## Question 3
 
-Write the jQuery code to navigate from one of the list item (`li`) DOM nodes to the `form`
-DOM node. (Assume the list item has a class of "listerItem").
+Write the jQuery code to navigate from one of the list item (`li`) DOM nodes to
+the `form` DOM node. (Assume the list item has a class of "listerItem").
 
 <!-- your answer starts here -->
 
@@ -26,7 +28,8 @@ DOM node. (Assume the list item has a class of "listerItem").
 
 ## Question 4
 
-Give two examples of jQuery getter methods and two examples of jQuery setter methods.
+Give two examples of jQuery getter methods and two examples of jQuery setter
+methods.
 
 <!-- your answer starts here -->
 
