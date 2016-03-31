@@ -3,28 +3,24 @@
 Using `inspect element`, write four selectors found on the main page for this
 GitHub repo.
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
-
+#js-flash-container
+.main-content
+#start-of-content
+.facebox
 ## Question 2
 
 Using the diagram in the `README` file, what are two ways you could return ALL
 list items (`li`) using jQuery? This is intentionally vague. (Assume starting
 at the `OL` DOM node).
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+$li.parentNode.form
 
 ## Question 3
 
 Write the jQuery code to navigate from one of the list item (`li`) DOM nodes to
 the `form` DOM node. (Assume the list item has a class of "listerItem").
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+$(.listerItem).parentNode.lastChild;
 
 ## Question 4
 
@@ -47,9 +43,7 @@ In your own words, please answer the following question: WHAT IS THE DOM?
 
 Please give two examples of things that are commonly confused for the DOM.
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+The visualization of the DOM in the DevTools window of a webpage and HTML.
 
 ## Question 7
 
