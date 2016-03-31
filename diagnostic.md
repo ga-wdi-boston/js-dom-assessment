@@ -18,6 +18,8 @@ at the `OL` DOM node).
 
 <!-- your answer starts here -->
 $("README.ol.li")
+
+GOOGLE
 <!-- your answer ends here -->
 
 ## Question 3
@@ -37,6 +39,8 @@ methods.
 <!-- your answer starts here -->
 Getter: 1. .attr() 2. .val()
 Setter: 1. .val('value') .css('selector', 'value')
+
+class notes
 <!-- your answer ends here -->
 
 ## Question 5
@@ -45,6 +49,8 @@ In your own words, please answer the following question: WHAT IS THE DOM?
 
 <!-- your answer starts here -->
 The DOM is a recursive tree......nailed it.
+
+class notes
 <!-- your answer ends here -->
 
 ## Question 6
@@ -54,6 +60,8 @@ Please give two examples of things that are commonly confused for the DOM.
 <!-- your answer starts here -->
 HTML you write.
 View Source
+
+css-tricks.com
 <!-- your answer ends here -->
 
 ## Question 7
