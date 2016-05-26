@@ -29,6 +29,7 @@ Write the jQuery code to navigate from one of the list item (`li`) DOM nodes to
 the `form` DOM node. (Assume the list item has a class of "listerItem").
 
 <!-- your answer starts here -->
+$("li.listerItem").find(":parent").find("form")
 
 <!-- your answer ends here -->
 
@@ -70,6 +71,8 @@ item elements) to the body DOM node, then hides it.
 
 <!-- your answer starts here -->
 
+$(".listerItem").find(":parent").find(":parent").hide(":parent")
+
 <!-- your answer ends here -->
 
 ## Question 8
@@ -77,5 +80,5 @@ item elements) to the body DOM node, then hides it.
 Use jQuery to register a click handler for clicks inside `div` items.
 
 <!-- your answer starts here -->
-$(".div").on('click', clickHandler)
+$("div").on("click", clickHandler)
 <!-- your answer ends here -->
