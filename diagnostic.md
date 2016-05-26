@@ -51,7 +51,7 @@ Please give two examples of things that are commonly confused for the DOM.
 Please write a method that traverses from the lister DOM node (one of the list
 item elements) to the body DOM node, then hides it.
 
-//
+$("li").parent().parent().hide();
 
 
 ## Question 8
