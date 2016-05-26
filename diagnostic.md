@@ -1,7 +1,6 @@
 ## Question 1
 
-Using `inspect element`, write four selectors found on the main page for this
-GitHub repo.
+Using `inspect element`, write four selectors found on the main page for this GitHub repo.
 
 <!-- your answer starts here -->
 
@@ -9,9 +8,7 @@ GitHub repo.
 
 ## Question 2
 
-Using the diagram in the `README` file, what are two ways you could return ALL
-list items (`li`) using jQuery? This is intentionally vague. (Assume starting
-at the `OL` DOM node).
+Using the diagram in the `README` file, what are two ways you could return ALLlist items (`li`) using jQuery? This is intentionally vague. (Assume starting at the `OL` DOM node).
 
 <!-- your answer starts here -->
 
@@ -23,7 +20,7 @@ Write the jQuery code to navigate from one of the list item (`li`) DOM nodes to
 the `form` DOM node. (Assume the list item has a class of "listerItem").
 
 <!-- your answer starts here -->
-
+$(".listerItem").children()
 <!-- your answer ends here -->
 
 ## Question 4
@@ -32,7 +29,8 @@ Give two examples of jQuery getter methods and two examples of jQuery setter
 methods.
 
 <!-- your answer starts here -->
-
+getter:  val(); find();
+setter: val(arg); find(arg);
 <!-- your answer ends here -->
 
 ## Question 5
@@ -40,7 +38,7 @@ methods.
 In your own words, please answer the following question: WHAT IS THE DOM?
 
 <!-- your answer starts here -->
-
+The exists between your code and your browser, it is a tree like structure that respresents the relationships of all the elements within the Document object.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -48,13 +46,12 @@ In your own words, please answer the following question: WHAT IS THE DOM?
 Please give two examples of things that are commonly confused for the DOM.
 
 <!-- your answer starts here -->
-
+The web browser, HTML code
 <!-- your answer ends here -->
 
 ## Question 7
 
-Please write a method that traverses from the lister DOM node (one of the list
-item elements) to the body DOM node, then hides it.
+Please write a method that traverses from the lister DOM node (one of the listitem elements) to the body DOM node, then hides it.
 
 <!-- your answer starts here -->
 
