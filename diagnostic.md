@@ -68,7 +68,7 @@ Please write a method that traverses from the lister DOM node (one of the list
 item elements) to the body DOM node, then hides it.
 
 <!-- your answer starts here -->
-
+$('li').parent()
 <!-- your answer ends here -->
 
 ## Question 8
