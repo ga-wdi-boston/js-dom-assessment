@@ -4,10 +4,10 @@ Using `inspect element`, write four selectors found on the main page for this
 GitHub repo.
 
 <!-- your answer starts here -->
-$('h1')
-$('h2')
-$('p')
-$('.markdown-body')
+1) $('h1')
+2) $('h2')
+3) $('p')
+4) $('.markdown-body')
 <!-- your answer ends here -->
 
 ## Question 2
@@ -37,10 +37,10 @@ Give two examples of jQuery getter methods and two examples of jQuery setter
 methods.
 
 <!-- your answer starts here -->
-find() - getter
-text() - can be used as getter or setter
-html() - can be used as getter or setter
-append() - setter
+1) find() - getter
+2) text() - can be used as getter or setter
+3) html() - can be used as getter or setter
+4) append() - setter
 
 <!-- your answer ends here -->
 
