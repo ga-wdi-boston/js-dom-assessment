@@ -4,7 +4,10 @@ Using `inspect element`, write four selectors found on the main page for this
 GitHub repo.
 
 <!-- your answer starts here -->
-
+.header-search-scope
+.text-muted
+.btn btn-sm
+#user-content-license
 <!-- your answer ends here -->
 
 ## Question 2
@@ -32,7 +35,8 @@ Give two examples of jQuery getter methods and two examples of jQuery setter
 methods.
 
 <!-- your answer starts here -->
-
+getter methods: val() & attr()
+setter methods: val(value) & attr(attributeName, value)
 <!-- your answer ends here -->
 
 ## Question 5
@@ -40,7 +44,9 @@ methods.
 In your own words, please answer the following question: WHAT IS THE DOM?
 
 <!-- your answer starts here -->
-
+The DOM is kind of like our DevTools and kind of not.  It's the browser's
+visual representation of our documents.  It's there but we can't see it.
+of
 <!-- your answer ends here -->
 
 ## Question 6
