@@ -4,7 +4,10 @@ Using `inspect element`, write four selectors found on the main page for this
 GitHub repo.
 
 <!-- your answer starts here -->
-
+$('div').children(.repository-content');
+$('button).children('btn btn-sm');
+$('article')
+$('#user-content-prerequisites')
 <!-- your answer ends here -->
 
 ## Question 2
@@ -32,6 +35,11 @@ Give two examples of jQuery getter methods and two examples of jQuery setter
 methods.
 
 <!-- your answer starts here -->
+$('div.)val()
+$('div').val(value)
+$('h1').attr()
+$('h1').attr(attr)
+
 
 <!-- your answer ends here -->
 
@@ -40,7 +48,8 @@ methods.
 In your own words, please answer the following question: WHAT IS THE DOM?
 
 <!-- your answer starts here -->
-
+The dom is a representation of something resembling a tree of the HTML that you
+built. It shows the relationship between all the elements. And their names/ids/classes
 <!-- your answer ends here -->
 
 ## Question 6
@@ -48,6 +57,8 @@ In your own words, please answer the following question: WHAT IS THE DOM?
 Please give two examples of things that are commonly confused for the DOM.
 
 <!-- your answer starts here -->
+HTML
+
 
 <!-- your answer ends here -->
 
@@ -65,5 +76,5 @@ item elements) to the body DOM node, then hides it.
 Use jQuery to register a click handler for clicks inside `div` items.
 
 <!-- your answer starts here -->
-
+$('div').on()
 <!-- your answer ends here -->
