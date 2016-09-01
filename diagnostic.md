@@ -4,6 +4,11 @@ Using `inspect element`, write four selectors found on the main page for this
 GitHub repo.
 
 <!-- your answer starts here -->
+1) Prerequisites - h2 {display: block; -webkit-margin-before: 08.3, etc.
+}
+2)<li></li> for the list of instructions
+3)<h1></h1> for the main header - jQUERY DOM Diagnostic
+4)<a href -->link to jQuery DOM github repo 
 
 <!-- your answer ends here -->
 
