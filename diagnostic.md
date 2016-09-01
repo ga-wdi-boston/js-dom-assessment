@@ -8,7 +8,12 @@ GitHub repo.
 }
 2)<li></li> for the list of instructions
 3)<h1></h1> for the main header - jQUERY DOM Diagnostic
-4)<a href -->link to jQuery DOM github repo 
+4)<a href -->link to jQuery DOM github repo
+
+Comfort: 4:
+Clarity: 5;
+
+Source: class notes.
 
 <!-- your answer ends here -->
 
@@ -18,9 +23,15 @@ Using the diagram in the `README` file, what are two ways you could return ALL
 list items (`li`) using jQuery? This is intentionally vague. (Assume starting
 at the `OL` DOM node).
 
-<!-- your answer starts here -->
 
-<!-- your answer ends here -->
+$(#li)
+.each(li)??
+
+clarity: 3
+comfort: 3
+source: https://api.jquery.com/each/
+
+
 
 ## Question 3
 
