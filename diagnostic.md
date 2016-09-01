@@ -27,7 +27,7 @@ Write the jQuery code to navigate from one of the list item (`li`) DOM nodes to
 the `form` DOM node. (Assume the list item has a class of "listerItem").
 
 <!-- your answer starts here -->
-$('.listerItem').parents('body').find('listerItem')
+$('.listerItem').parents('body').find('form')
 <!-- your answer ends here -->
 
 ## Question 4
@@ -70,7 +70,7 @@ Please write a method that traverses from the lister DOM node (one of the list
 item elements) to the body DOM node, then hides it.
 
 <!-- your answer starts here -->
-
+$('.listerItem').parents('body').hide()
 <!-- your answer ends here -->
 
 ## Question 8
@@ -78,5 +78,5 @@ item elements) to the body DOM node, then hides it.
 Use jQuery to register a click handler for clicks inside `div` items.
 
 <!-- your answer starts here -->
-
+$('div').on('click', doSomething)
 <!-- your answer ends here -->
