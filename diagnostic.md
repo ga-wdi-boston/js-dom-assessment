@@ -39,8 +39,12 @@ Write the jQuery code to navigate from one of the list item (`li`) DOM nodes to
 the `form` DOM node. (Assume the list item has a class of "listerItem").
 
 <!-- your answer starts here -->
-
+$("li.listerItem").find( "form" )...????;
 <!-- your answer ends here -->
+
+comfort: 3
+clarity: 3
+source: https://api.jquery.com/find/
 
 ## Question 4
 
