@@ -3,9 +3,10 @@
 Using `inspect element`, write four selectors found on the main page for this
 GitHub repo.
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+class
+id
+crossorigin="anonymous"
+async="async"
 
 ## Question 2
 
@@ -13,9 +14,7 @@ Using the diagram in the `README` file, what are two ways you could return ALL
 list items (`li`) using jQuery? This is intentionally vague. (Assume starting
 at the `OL` DOM node).
 
-<!-- your answer starts here -->
 
-<!-- your answer ends here -->
 
 ## Question 3
 
@@ -31,25 +30,28 @@ the `form` DOM node. (Assume the list item has a class of "listerItem").
 Give two examples of jQuery getter methods and two examples of jQuery setter
 methods.
 
-<!-- your answer starts here -->
+Example of jQuery getter methods:
+var theHeight = $("#example").height();
+var str = $("p:first").text();
 
-<!-- your answer ends here -->
+Example of jQuery setter methods:
+$("#example").height(100);
+$("p").text("This is demo text.");
 
 ## Question 5
 
 In your own words, please answer the following question: WHAT IS THE DOM?
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+The DOM interprets HTML and XML and makes it available to other programs so that
+they can manipulate it.
 
 ## Question 6
 
 Please give two examples of things that are commonly confused for the DOM.
 
-<!-- your answer starts here -->
+1.HTML
 
-<!-- your answer ends here -->
+2.A programming language
 
 ## Question 7
 
@@ -64,6 +66,8 @@ item elements) to the body DOM node, then hides it.
 
 Use jQuery to register a click handler for clicks inside `div` items.
 
-<!-- your answer starts here -->
+if <div id = "divid">
 
-<!-- your answer ends here -->
+$( "#divid" ).click(function() {
+  alert( "Handler for .click() called." );
+});
