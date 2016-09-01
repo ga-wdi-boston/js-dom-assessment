@@ -103,7 +103,7 @@ Please write a method that traverses from the lister DOM node (one of the list
 item elements) to the body DOM node, then hides it.
 
 <!-- your answer starts here -->
-
+$('li').parent().parent().hide();
 <!-- your answer ends here -->
 
 ## Question 8
@@ -111,5 +111,5 @@ item elements) to the body DOM node, then hides it.
 Use jQuery to register a click handler for clicks inside `div` items.
 
 <!-- your answer starts here -->
-
+$('div').on('click', function() { });
 <!-- your answer ends here -->
