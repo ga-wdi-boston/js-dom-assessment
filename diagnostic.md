@@ -27,7 +27,7 @@ Write the jQuery code to navigate from one of the list item (`li`) DOM nodes to
 the `form` DOM node. (Assume the list item has a class of "listerItem").
 
 <!-- your answer starts here -->
-
+$('.listerItem').parents('body').find('listerItem')
 <!-- your answer ends here -->
 
 ## Question 4
@@ -36,7 +36,13 @@ Give two examples of jQuery getter methods and two examples of jQuery setter
 methods.
 
 <!-- your answer starts here -->
+getter:
+css('background-color')
+text()
 
+setter:
+css('background-color', 'blue')
+text('some text')
 <!-- your answer ends here -->
 
 ## Question 5
