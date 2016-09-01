@@ -60,13 +60,20 @@ SEtter:
 comfort: 3
 clarity:3
 
+source:google/notes
+
 ## Question 5
 
 In your own words, please answer the following question: WHAT IS THE DOM?
 
-<!-- your answer starts here -->
+The DOM is a combination of all of the code that we have written, which is then
+used to make a rendering tree for the browser to paint on the screen. It is the
+way that code is organized so that an app can be visible on the page.
 
-<!-- your answer ends here -->
+clarity: 4
+comfort: 4
+source: class notes
+
 
 ## Question 6
 
