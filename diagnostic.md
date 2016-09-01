@@ -51,9 +51,14 @@ source: https://api.jquery.com/find/
 Give two examples of jQuery getter methods and two examples of jQuery setter
 methods.
 
-<!-- your answer starts here -->
+Gettter:
+.find() & .text()
 
-<!-- your answer ends here -->
+SEtter:
+.html() & .on()
+
+comfort: 3
+clarity:3
 
 ## Question 5
 
