@@ -32,6 +32,9 @@ Give two examples of jQuery getter methods and two examples of jQuery setter
 methods.
 
 <!-- your answer starts here -->
+Getter methods: .val() and .html()
+
+Setter methods: .val(value) and .html(value)
 
 <!-- your answer ends here -->
 
@@ -40,6 +43,7 @@ methods.
 In your own words, please answer the following question: WHAT IS THE DOM?
 
 <!-- your answer starts here -->
+The DOM is API for HTML documents which documents the structure of the HTML before it is rendered in the browswer. It can be modified using javascript without changing the original HTML.
 
 <!-- your answer ends here -->
 
@@ -48,6 +52,7 @@ In your own words, please answer the following question: WHAT IS THE DOM?
 Please give two examples of things that are commonly confused for the DOM.
 
 <!-- your answer starts here -->
+The inspector element or the actual HTML code.
 
 <!-- your answer ends here -->
 
@@ -65,5 +70,8 @@ item elements) to the body DOM node, then hides it.
 Use jQuery to register a click handler for clicks inside `div` items.
 
 <!-- your answer starts here -->
+$( div ).on( "click", function() {
+  console.log('Div was clicked on');
+});
 
 <!-- your answer ends here -->
