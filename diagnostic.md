@@ -84,7 +84,8 @@ $('element').prop(propertyName, value)
 In your own words, please answer the following question: WHAT IS THE DOM?
 
 <!-- your answer starts here -->
-
+The dom is a tree structure that represents all of the elements in a webpage
+that is translated into a visual representation by HTML, CSS, and JS.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -92,7 +93,8 @@ In your own words, please answer the following question: WHAT IS THE DOM?
 Please give two examples of things that are commonly confused for the DOM.
 
 <!-- your answer starts here -->
-
+HTML
+your index file.
 <!-- your answer ends here -->
 
 ## Question 7
