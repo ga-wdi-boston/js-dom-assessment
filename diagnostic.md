@@ -79,9 +79,10 @@ source: class notes
 
 Please give two examples of things that are commonly confused for the DOM.
 
-<!-- your answer starts here -->
+the HTML we write.
+A text editor
 
-<!-- your answer ends here -->
+
 
 ## Question 7
 
