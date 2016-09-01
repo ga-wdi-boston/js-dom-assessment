@@ -4,7 +4,10 @@ Using `inspect element`, write four selectors found on the main page for this
 GitHub repo.
 
 <!-- your answer starts here -->
-
+#start-of-content
+.facebox
+#ajax-error-message
+div
 <!-- your answer ends here -->
 
 ## Question 2
@@ -14,7 +17,8 @@ list items (`li`) using jQuery? This is intentionally vague. (Assume starting
 at the `OL` DOM node).
 
 <!-- your answer starts here -->
-
+$('li')
+$('ol').find('li')
 <!-- your answer ends here -->
 
 ## Question 3
