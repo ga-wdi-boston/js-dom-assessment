@@ -50,7 +50,9 @@ text('some text')
 In your own words, please answer the following question: WHAT IS THE DOM?
 
 <!-- your answer starts here -->
-
+The DOM is a dynamic object that the browser creates from HTML source code,
+JavaScript commands, and other interactions. Represented by the 'document'
+object, it is how we, as developers, find and interact with content on the page.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -58,7 +60,8 @@ In your own words, please answer the following question: WHAT IS THE DOM?
 Please give two examples of things that are commonly confused for the DOM.
 
 <!-- your answer starts here -->
-
+The DOM is commonly confused with the HTML we write, and with the code we can
+see when we "View Source" in the browser. The DOM is neither of these things.
 <!-- your answer ends here -->
 
 ## Question 7
