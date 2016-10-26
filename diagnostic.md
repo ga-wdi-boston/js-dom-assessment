@@ -53,8 +53,8 @@ Please give two examples of things that are commonly confused for the DOM.
 
 ## Question 7
 
-Please write a method that traverses from the lister DOM node (one of the list
-item elements) to the body DOM node, then hides it.
+Please write a method that traverses from a list item (`li`) DOM node to the
+body DOM node, then hides it.
 
 <!-- your answer starts here -->
 
