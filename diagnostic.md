@@ -4,9 +4,9 @@ Using `inspect element`, write four selectors found on the main page for this
 GitHub repo.
 
 <!-- your answer starts here -->
-class = repository content
-id = ajax error message
-id = facebox
+.repository-content
+#ajax-error-message
+#facebox
 <!-- your answer ends here -->
 
 ## Question 2
@@ -41,7 +41,7 @@ getters:
 
 setters:
 .text('foo')
-.html(<foo></foo>)
+.html(<foo>bar</foo>)
 <!-- your answer ends here -->
 
 ## Question 5
