@@ -18,6 +18,7 @@ at the `OL` DOM node).
 
 <!-- your answer starts here -->
 $('li');
+$('ol').children();
 <!-- your answer ends here -->
 
 ## Question 3
