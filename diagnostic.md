@@ -3,9 +3,11 @@
 Using `inspect element`, write four selectors found on the main page for this
 GitHub repo.
 
-<!-- your answer starts here -->
+$('a')
+$('h3')
+$('img')
+$('p')
 
-<!-- your answer ends here -->
 
 ## Question 2
 
@@ -13,57 +15,59 @@ Using the diagram in the `README` file, what are two ways you could return ALL
 list items (`li`) using jQuery? This is intentionally vague. (Assume starting
 at the `OL` DOM node).
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+$('ol').children();
+$('li').siblings();
 
 ## Question 3
 
 Write the jQuery code to navigate from one of the list item (`li`) DOM nodes to
 the `form` DOM node. (Assume the list item has a class of "listerItem").
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+$('.listerItem').parentUtil('form');
 
 ## Question 4
 
 Give two examples of jQuery getter methods and two examples of jQuery setter
 methods.
 
-<!-- your answer starts here -->
+Getter methods -
+.css() - Returns the css property of the selected node.
+.html() - Returns the html tag of the selected node.
 
-<!-- your answer ends here -->
+Setter methods -
+.text() - When passed a parameter, it sets the parameter text to the selected
+          node.
+.css() - When passed a parameter, it sets the parameter css property to the
+         selected node.
+
 
 ## Question 5
 
 In your own words, please answer the following question: WHAT IS THE DOM?
 
-<!-- your answer starts here -->
+DOM, or Document Object Model is a visual representation of the HTML page.
+It is useful for accessing and manupulating the nodes using javascript.
 
-<!-- your answer ends here -->
 
 ## Question 6
 
 Please give two examples of things that are commonly confused for the DOM.
 
-<!-- your answer starts here -->
+DOM is not the visual code
+It is not the HTML although it looks like HTML?
 
-<!-- your answer ends here -->
 
 ## Question 7
 
 Please write a method that traverses from a list item (`li`) DOM node to the
 body DOM node, then hides it.
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+$('li').parents().hide();
 
 ## Question 8
 
 Use jQuery to register a click handler for clicks inside `div` items.
 
-<!-- your answer starts here -->
+$('div').on(click, function() {
 
-<!-- your answer ends here -->
+});
