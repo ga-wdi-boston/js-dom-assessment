@@ -5,6 +5,12 @@ GitHub repo.
 
 <!-- your answer starts here -->
 
+id
+class
+div
+::after
+
+
 <!-- your answer ends here -->
 
 ## Question 2
@@ -14,6 +20,8 @@ list items (`li`) using jQuery? This is intentionally vague. (Assume starting
 at the `OL` DOM node).
 
 <!-- your answer starts here -->
+
+
 
 <!-- your answer ends here -->
 
@@ -32,6 +40,11 @@ Give two examples of jQuery getter methods and two examples of jQuery setter
 methods.
 
 <!-- your answer starts here -->
+Getters:
+.find;
+.html
+Setters:
+.addClass
 
 <!-- your answer ends here -->
 
@@ -40,6 +53,9 @@ methods.
 In your own words, please answer the following question: WHAT IS THE DOM?
 
 <!-- your answer starts here -->
+DOM = "Document Object Model"
+The DOM is a visual representation of the structure of a webpage's content. It is used conceptually to assist in navigation between files.
+
 
 <!-- your answer ends here -->
 
@@ -48,6 +64,9 @@ In your own words, please answer the following question: WHAT IS THE DOM?
 Please give two examples of things that are commonly confused for the DOM.
 
 <!-- your answer starts here -->
+1. HTML
+2. The page's content.
+
 
 <!-- your answer ends here -->
 
@@ -57,7 +76,7 @@ Please write a method that traverses from a list item (`li`) DOM node to the
 body DOM node, then hides it.
 
 <!-- your answer starts here -->
-
+$
 <!-- your answer ends here -->
 
 ## Question 8
@@ -65,5 +84,9 @@ body DOM node, then hides it.
 Use jQuery to register a click handler for clicks inside `div` items.
 
 <!-- your answer starts here -->
+div.addEventListener("click", function() {
+console.log("There has been a click!")
+)};
+
 
 <!-- your answer ends here -->
