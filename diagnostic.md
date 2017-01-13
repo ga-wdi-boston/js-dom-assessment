@@ -4,7 +4,7 @@ Using `inspect element`, write four selectors found on the main page for this
 GitHub repo.
 
 <!-- your answer starts here -->
-.text-grey
+.text-gray
 a.user-mention
 img.avatar
 article
