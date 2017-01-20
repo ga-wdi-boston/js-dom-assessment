@@ -4,7 +4,7 @@ Using `inspect element`, write four selectors found on the main page for this
 GitHub repo.
 
 <!-- your answer starts here -->
-
+*, body, html, logged-in
 <!-- your answer ends here -->
 
 ## Question 2
@@ -14,6 +14,8 @@ list items (`li`) using jQuery? This is intentionally vague. (Assume starting
 at the `OL` DOM node).
 
 <!-- your answer starts here -->
+$('li');
+$('ul')
 
 <!-- your answer ends here -->
 
@@ -32,7 +34,12 @@ Give two examples of jQuery getter methods and two examples of jQuery setter
 methods.
 
 <!-- your answer starts here -->
-
+getter:
+.val()
+.html
+setter:
+.val(value)
+.html(value)
 <!-- your answer ends here -->
 
 ## Question 5
@@ -40,7 +47,8 @@ methods.
 In your own words, please answer the following question: WHAT IS THE DOM?
 
 <!-- your answer starts here -->
-
+The DOM is a copy of code of a website to which temporary changes can be applied
+before being painted on the screen.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -48,7 +56,7 @@ In your own words, please answer the following question: WHAT IS THE DOM?
 Please give two examples of things that are commonly confused for the DOM.
 
 <!-- your answer starts here -->
-
+code and the rendered website
 <!-- your answer ends here -->
 
 ## Question 7
@@ -65,5 +73,7 @@ body DOM node, then hides it.
 Use jQuery to register a click handler for clicks inside `div` items.
 
 <!-- your answer starts here -->
-
+$('div').on('click', function(){
+  console.log('div was clicked on');
+});
 <!-- your answer ends here -->
