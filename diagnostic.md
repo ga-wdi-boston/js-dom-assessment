@@ -47,6 +47,7 @@ $("#h1").html()
 In your own words, please answer the following question: WHAT IS THE DOM?
 
 <!-- your answer starts here -->
+The dom is a place in the browser where a base copy of the site you're looking at is stored and can be manipulated. However what you can access is a "copy" of the websites skeleton. It keeps the master, and gives you one to change, since you can't change a site you don't have access to. 
 
 <!-- your answer ends here -->
 
