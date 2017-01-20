@@ -4,7 +4,10 @@ Using `inspect element`, write four selectors found on the main page for this
 GitHub repo.
 
 <!-- your answer starts here -->
-
+Class=' emoji-size-boost is-u2f-enabled'
+id='js-pjax-loader-bar'
+div class='repo-file-upload-tree-target js-document-dropzone js-upload-manifest-tree-view'
+id=readme
 <!-- your answer ends here -->
 
 ## Question 2
@@ -14,7 +17,8 @@ list items (`li`) using jQuery? This is intentionally vague. (Assume starting
 at the `OL` DOM node).
 
 <!-- your answer starts here -->
-
+.get()
+and .each()
 <!-- your answer ends here -->
 
 ## Question 3
@@ -23,7 +27,7 @@ Write the jQuery code to navigate from one of the list item (`li`) DOM nodes to
 the `form` DOM node. (Assume the list item has a class of "listerItem").
 
 <!-- your answer starts here -->
-
+$('#li').parent(form)
 <!-- your answer ends here -->
 
 ## Question 4
@@ -32,7 +36,10 @@ Give two examples of jQuery getter methods and two examples of jQuery setter
 methods.
 
 <!-- your answer starts here -->
-
+$("#firstHeader").replacewith(silly name)
+$("#h1").html(I think this is right?)
+$("#firstHeader").replacewith()
+$("#h1").html()
 <!-- your answer ends here -->
 
 ## Question 5
