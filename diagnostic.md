@@ -3,9 +3,8 @@
 Using `inspect element`, write four selectors found on the main page for this
 GitHub repo.
 
-<!-- your answer starts here -->
+<div id="js-pjax-loader-bar" class="pjax-loader-bar">
 
-<!-- your answer ends here -->
 
 ## Question 2
 
@@ -31,25 +30,21 @@ the `form` DOM node. (Assume the list item has a class of "listerItem").
 Give two examples of jQuery getter methods and two examples of jQuery setter
 methods.
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
-
+.val() getter
+.text() getter
+.val("hello") setter
+.text('hello') setter
 ## Question 5
 
 In your own words, please answer the following question: WHAT IS THE DOM?
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
-
+The Dom is a visual representaion of the source code we send to the browser
 ## Question 6
 
 Please give two examples of things that are commonly confused for the DOM.
 
-<!-- your answer starts here -->
-
-<!-- your answer ends here -->
+Inspector window
+Html files
 
 ## Question 7
 
@@ -64,6 +59,6 @@ body DOM node, then hides it.
 
 Use jQuery to register a click handler for clicks inside `div` items.
 
-<!-- your answer starts here -->
+$(div).click(function(){
 
-<!-- your answer ends here -->
+});
