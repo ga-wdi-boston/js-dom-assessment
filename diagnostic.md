@@ -75,5 +75,7 @@ $('li:parent^2').hide();
 Use jQuery to register a click handler for clicks inside `div` items.
 
 <!-- your answer starts here -->
-$('div').on('click', function);
+$('div').on('click', () => {
+  // do something
+});
 <!-- your answer ends here -->
