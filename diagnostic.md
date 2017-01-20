@@ -5,6 +5,12 @@ GitHub repo.
 
 <!-- your answer starts here -->
 
+<!--#<body > div:nth-child(6)</body>
+ <div.modal-backdrop.js-touch-events
+<div id="start-of-content" class="accessability-aid<</div>
+<body > div.container.site-footer-container></body>
+-->
+
 <!-- your answer ends here -->
 
 ## Question 2
@@ -13,7 +19,7 @@ Using the diagram in the `README` file, what are two ways you could return ALL
 list items (`li`) using jQuery? This is intentionally vague. (Assume starting
 at the `OL` DOM node).
 
-<!-- your answer starts here -->
+console.log( $( "li" )[ 0 ] );
 
 <!-- your answer ends here -->
 
@@ -23,6 +29,7 @@ Write the jQuery code to navigate from one of the list item (`li`) DOM nodes to
 the `form` DOM node. (Assume the list item has a class of "listerItem").
 
 <!-- your answer starts here -->
+$
 
 <!-- your answer ends here -->
 
@@ -32,6 +39,8 @@ Give two examples of jQuery getter methods and two examples of jQuery setter
 methods.
 
 <!-- your answer starts here -->
+$("text")
+$("value")
 
 <!-- your answer ends here -->
 
@@ -39,7 +48,7 @@ methods.
 
 In your own words, please answer the following question: WHAT IS THE DOM?
 
-<!-- your answer starts here -->
+the DOM is a list of rules governing the way data is transfered between computers
 
 <!-- your answer ends here -->
 
@@ -47,7 +56,8 @@ In your own words, please answer the following question: WHAT IS THE DOM?
 
 Please give two examples of things that are commonly confused for the DOM.
 
-<!-- your answer starts here -->
+JavaScript
+Web page
 
 <!-- your answer ends here -->
 
@@ -57,6 +67,8 @@ Please write a method that traverses from a list item (`li`) DOM node to the
 body DOM node, then hides it.
 
 <!-- your answer starts here -->
+$('find("li")'),
+$('hidden("li")')
 
 <!-- your answer ends here -->
 
