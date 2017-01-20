@@ -18,6 +18,7 @@ at the `OL` DOM node).
 
 <!-- your answer starts here -->
 $('#li').show();
+$('OL').find('#li');
 <!-- your answer ends here -->
 
 ## Question 3
