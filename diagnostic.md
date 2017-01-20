@@ -4,7 +4,10 @@ Using `inspect element`, write four selectors found on the main page for this
 GitHub repo.
 
 <!-- your answer starts here -->
-
+.octicon octicon-mark-github
+#user-content-jquery-dom-diagnostic
+.class="js-selected-navigation-item reponav-item"
+.container new-discussion-timeline experiment-repo-nav
 <!-- your answer ends here -->
 
 ## Question 2
@@ -14,7 +17,7 @@ list items (`li`) using jQuery? This is intentionally vague. (Assume starting
 at the `OL` DOM node).
 
 <!-- your answer starts here -->
-
+$("li").val()
 <!-- your answer ends here -->
 
 ## Question 3
@@ -32,7 +35,10 @@ Give two examples of jQuery getter methods and two examples of jQuery setter
 methods.
 
 <!-- your answer starts here -->
-
+$("#books").html("Hello word") setter
+$("#books").text("lord of the rings") stter
+$("#books").attr()getter
+$("#books").val() getter
 <!-- your answer ends here -->
 
 ## Question 5
@@ -40,7 +46,7 @@ methods.
 In your own words, please answer the following question: WHAT IS THE DOM?
 
 <!-- your answer starts here -->
-
+DOM is the representation of the html on browser.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -48,6 +54,7 @@ In your own words, please answer the following question: WHAT IS THE DOM?
 Please give two examples of things that are commonly confused for the DOM.
 
 <!-- your answer starts here -->
+Dom is not a language and making changes on it doesn't change anything on server.
 
 <!-- your answer ends here -->
 
@@ -57,7 +64,9 @@ Please write a method that traverses from a list item (`li`) DOM node to the
 body DOM node, then hides it.
 
 <!-- your answer starts here -->
-
+$("li").on("click",()=>{
+  li.fadeOut();
+})
 <!-- your answer ends here -->
 
 ## Question 8
@@ -65,5 +74,7 @@ body DOM node, then hides it.
 Use jQuery to register a click handler for clicks inside `div` items.
 
 <!-- your answer starts here -->
-
+$("div").on("click",()=>{
+   alert( "You are clicking the div items" );
+})
 <!-- your answer ends here -->
