@@ -4,6 +4,7 @@ Using `inspect element`, write four selectors found on the main page for this
 GitHub repo.
 
 <!-- your answer starts here -->
+$( ".site-footer-links" ).find( "li" ).css( "background-color", "red" );
 
 <!-- your answer ends here -->
 
@@ -32,6 +33,7 @@ Give two examples of jQuery getter methods and two examples of jQuery setter
 methods.
 
 <!-- your answer starts here -->
+$( "li.item-ii" ).find( allListElements );
 
 <!-- your answer ends here -->
 
@@ -40,15 +42,15 @@ methods.
 In your own words, please answer the following question: WHAT IS THE DOM?
 
 <!-- your answer starts here -->
-
+the DOM is a structured representation (document object) of html within the browser
 <!-- your answer ends here -->
-
 ## Question 6
 
 Please give two examples of things that are commonly confused for the DOM.
 
 <!-- your answer starts here -->
-
+1. that it is a copy of html
+2. that the view source within the browser is the DOM
 <!-- your answer ends here -->
 
 ## Question 7
@@ -65,5 +67,5 @@ body DOM node, then hides it.
 Use jQuery to register a click handler for clicks inside `div` items.
 
 <!-- your answer starts here -->
-
+$("div").on('click', function(event){   console.log("event.target is ", event.target); });
 <!-- your answer ends here -->
