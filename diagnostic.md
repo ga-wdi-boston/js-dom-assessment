@@ -14,6 +14,7 @@ list items (`li`) using jQuery? This is intentionally vague. (Assume starting
 at the `OL` DOM node).
 
 <!-- your answer starts here -->
+.each
 
 <!-- your answer ends here -->
 
@@ -40,6 +41,7 @@ methods.
 In your own words, please answer the following question: WHAT IS THE DOM?
 
 <!-- your answer starts here -->
+Data Object Model, it's a tree like representation of what renders on a web page
 
 <!-- your answer ends here -->
 
@@ -48,7 +50,7 @@ In your own words, please answer the following question: WHAT IS THE DOM?
 Please give two examples of things that are commonly confused for the DOM.
 
 <!-- your answer starts here -->
-
+HTML
 <!-- your answer ends here -->
 
 ## Question 7
