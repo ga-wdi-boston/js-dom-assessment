@@ -4,8 +4,11 @@ Using `inspect element`, write four selectors found on the main page for this
 GitHub repo.
 
 <!-- your answer starts here -->
-
-<!-- your answer ends here -->
+<div class="position-relative js-header-wrapper">
+<div class="repository-content>"
+<div class="modal-backdrop js-touch-events">
+<button type="button" class="btn-link f6 lh-condensed js-repo-topics-form-toggle js details-target"
+><!-- your answer ends here -->
 
 ## Question 2
 
@@ -14,7 +17,8 @@ list items (`li`) using jQuery? This is intentionally vague. (Assume starting
 at the `OL` DOM node).
 
 <!-- your answer starts here -->
-
+getElementsByTagName(li)
+document.getElementsByTagName('li')
 <!-- your answer ends here -->
 
 ## Question 3
@@ -32,6 +36,21 @@ Give two examples of jQuery getter methods and two examples of jQuery setter
 methods.
 
 <!-- your answer starts here -->
+$.get( "ajax/test.html", function( data ) {
+  $( ".result" ).html( data );
+  alert( "Load was performed." );
+});
+
+$.get( "test.cgi", { name: "John", time: "2pm" } )
+  .done(function( data ) {
+    alert( "Data Loaded: " + data );
+  });
+
+  $("#btn1").click(function(){
+      $("#test1").text("Hello world!");
+  });
+  $("#btn2").click(function(){
+      $("#test2").html("<b>Hello world!</b>");
 
 <!-- your answer ends here -->
 
@@ -40,6 +59,7 @@ methods.
 In your own words, please answer the following question: WHAT IS THE DOM?
 
 <!-- your answer starts here -->
+It provides a tree-like structure for viewing all the elements/objects.  Look at the elements panel in developer tools to see the Dom.  In the browser, the DOM is represented by the document object
 
 <!-- your answer ends here -->
 
@@ -48,7 +68,8 @@ In your own words, please answer the following question: WHAT IS THE DOM?
 Please give two examples of things that are commonly confused for the DOM.
 
 <!-- your answer starts here -->
-
+HTML (the source code)
+A programming language
 <!-- your answer ends here -->
 
 ## Question 7
