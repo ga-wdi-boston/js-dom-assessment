@@ -27,7 +27,7 @@ Write the jQuery code to navigate from one of the list item (`li`) DOM nodes to
 the `form` DOM node. (Assume the list item has a class of "listerItem").
 
 <!-- your answer starts here -->
-
+$("listerItem").siblings()
 <!-- your answer ends here -->
 
 ## Question 4
@@ -37,8 +37,8 @@ methods.
 
 <!-- your answer starts here -->
 Getters:
-.html will get the html in a selection.
-.text will get text content.
+.html() will get the html in a selection.
+.text() will get text content.
 
 Setters:
 .html("example") will set the html in a selection.
