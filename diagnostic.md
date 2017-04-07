@@ -65,13 +65,12 @@ Please write a method that traverses from a list item (`li`) DOM node to the
 body DOM node, then hides it.
 
 <!-- your answer starts here -->
-
+$(li).
 <!-- your answer ends here -->
 
 ## Question 8
 
 Use jQuery to register a click handler for clicks inside `div` items.
-$("#test").text()
 <!-- your answer starts here -->
-$("div")
+$("div").on('click', doThe.ThingsWeProgrammed)
 <!-- your answer ends here -->
