@@ -4,10 +4,10 @@ Using `inspect element`, write four selectors found on the main page for this
 GitHub repo.
 
 <!-- your answer starts here -->
-div.repository-content
-article.markdown-body img
-article.entry content h1
-div.highlight
+$('div.repository-content')
+$('article.markdown-body img')
+$('article.entry content h1')
+$('div.highlight')
 <!-- your answer ends here -->
 
 ## Question 2
@@ -17,8 +17,8 @@ list items (`li`) using jQuery? This is intentionally vague. (Assume starting
 at the `OL` DOM node).
 
 <!-- your answer starts here -->
-$('li').val()
-$('ol').children()
+$('OL'[0]).nextAll()
+$('OL').children()
 <!-- your answer ends here -->
 
 ## Question 3
@@ -73,5 +73,7 @@ $('li').parent('body').hide()
 Use jQuery to register a click handler for clicks inside `div` items.
 
 <!-- your answer starts here -->
-$('div').on('click', listenFunction)
+$('div').on('click', function() {
+  console.log('click')
+})
 <!-- your answer ends here -->
