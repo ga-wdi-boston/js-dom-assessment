@@ -23,7 +23,7 @@ Write the jQuery code to navigate from one of the list item (`li`) DOM nodes to
 the `form` DOM node. (Assume the list item has a class of "listerItem").
 
 <!-- your answer starts here -->
-
+$('.listerItem').closest('form')
 <!-- your answer ends here -->
 
 ## Question 4
@@ -63,7 +63,7 @@ Please write a method that traverses from a list item (`li`) DOM node to the
 body DOM node, then hides it.
 
 <!-- your answer starts here -->
-
+$('li').parentsUntil('body')
 <!-- your answer ends here -->
 
 ## Question 8
