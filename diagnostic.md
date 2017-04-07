@@ -37,12 +37,12 @@ methods.
 
 <!-- your answer starts here -->
 Getter:
-$("li")
-$("ul li")
+$("img").width
+$("ul").html
 
 Setter:
-$("li").attr()
-$("li").addClass()
+$("p").removeClass("container")
+$("li").addClass("newList")
 
 <!-- your answer ends here -->
 
