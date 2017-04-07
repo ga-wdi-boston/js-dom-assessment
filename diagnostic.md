@@ -4,7 +4,10 @@ Using `inspect element`, write four selectors found on the main page for this
 GitHub repo.
 
 <!-- your answer starts here -->
-
+$("#id js-repo-pjax container")
+$('#id' js-flash container")
+$('#class container-site-footer-container')
+$('#class facebox')
 <!-- your answer ends here -->
 
 ## Question 2
@@ -14,7 +17,8 @@ list items (`li`) using jQuery? This is intentionally vague. (Assume starting
 at the `OL` DOM node).
 
 <!-- your answer starts here -->
-
+$("li")
+$('li:first-child') *i'm pretty sure this will only return the first li element, but I couldn't find another in option in time
 <!-- your answer ends here -->
 
 ## Question 3
@@ -30,7 +34,7 @@ the `form` DOM node. (Assume the list item has a class of "listerItem").
 
 Give two examples of jQuery getter methods and two examples of jQuery setter
 methods.
-
+$ ('text')
 <!-- your answer starts here -->
 
 <!-- your answer ends here -->
