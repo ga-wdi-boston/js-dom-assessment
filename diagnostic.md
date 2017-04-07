@@ -71,7 +71,7 @@ Please write a method that traverses from a list item (`li`) DOM node to the
 body DOM node, then hides it.
 
 <!-- your answer starts here -->
-
+ $('li').parents('body').hide()
 <!-- your answer ends here -->
 
 ## Question 8
