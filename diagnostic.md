@@ -4,7 +4,10 @@ Using `inspect element`, write four selectors found on the main page for this
 GitHub repo.
 
 <!-- your answer starts here -->
-
+div.header
+article.markdown-body.entry-content
+ol (ordered list)
+div.site-footer
 <!-- your answer ends here -->
 
 ## Question 2
@@ -14,7 +17,7 @@ list items (`li`) using jQuery? This is intentionally vague. (Assume starting
 at the `OL` DOM node).
 
 <!-- your answer starts here -->
-
+$('ol')
 <!-- your answer ends here -->
 
 ## Question 3
@@ -32,7 +35,8 @@ Give two examples of jQuery getter methods and two examples of jQuery setter
 methods.
 
 <!-- your answer starts here -->
-
+Getter: .class, :first-child
+Setter:
 <!-- your answer ends here -->
 
 ## Question 5
@@ -40,7 +44,7 @@ methods.
 In your own words, please answer the following question: WHAT IS THE DOM?
 
 <!-- your answer starts here -->
-
+It is the Document Object Model. I like to think of it as an intermediate layer between code and the renderer.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -48,7 +52,7 @@ In your own words, please answer the following question: WHAT IS THE DOM?
 Please give two examples of things that are commonly confused for the DOM.
 
 <!-- your answer starts here -->
-
+Source or rendered page.
 <!-- your answer ends here -->
 
 ## Question 7
