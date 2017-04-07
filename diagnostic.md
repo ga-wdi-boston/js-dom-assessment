@@ -53,7 +53,7 @@ In your own words, please answer the following question: WHAT IS THE DOM?
 
 <!-- your answer starts here -->
 The DOM is a seperate entity from the html/css. It represents the html and css which
-lets us manipulate it with javascript.
+lets us manipulate it with javascript. The dom is an api.
 <!-- your answer ends here -->
 
 ## Question 6
@@ -61,7 +61,8 @@ lets us manipulate it with javascript.
 Please give two examples of things that are commonly confused for the DOM.
 
 <!-- your answer starts here -->
-
+The html and css documents
+Source code
 <!-- your answer ends here -->
 
 ## Question 7
